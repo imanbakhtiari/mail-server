@@ -53,7 +53,8 @@ your-domain.com MX mail.your-domain.com
 your-domain.com. IN TXT "v=spf1 mx ~all"
 ```
 
-## 5- DKIM record (this is example only, copy one from your administration!):
+## 5- DKIM record 
+#### (this is example only, copy one from your administration!):
 
 ```
 _s20160910378._domainkey.your-domain.com IN TXT "k=rsa;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0FvkMuwN46vvtQCC1JZz7XzRE+l+Lf8/5XUKwWJXOcE7dJoZBbOE0Gz85phZ2q+y4l8D7t/hXDz9q+6/KVQDgJ9muaxSM/uS+KG0ds0QLEiV0GYCVu+ZZQSNPBPjOwlDvo3LraW00lMpd5dUj+xpr07ShfIoULhi7/7t76n5GZMse9yBa4hIhxSG/wCAB4D6IWYBURz9Pc75IDPDTlImr3TP/82YrsULY70CHaPHA1+j1VPA5lE+tnmeqxJW6P537xSutDppv8BZg4nlF3ojg2k6LB/cq15C4QRPAMs77pRA4GVnys1LEJ3JDvV3/csOCZ49oC4m44/TnWXk057OAwIDAQAB"
