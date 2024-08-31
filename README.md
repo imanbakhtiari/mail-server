@@ -63,7 +63,7 @@ _s20160910378._domainkey.your-domain.com IN TXT "k=rsa;p=MIIBIjANBgkqhkiG9w0BAQE
 #### Public part of DKIM. You must set the selector (subdomain part) and TXT record exactly the same or it will not work.
 
 
-### DMARC record:
+### 6- DMARC record:
 ```
 _dmarc.our-domain.com. IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-reports@our-domain.com"
 ```
